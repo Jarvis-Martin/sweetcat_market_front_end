@@ -1,0 +1,102 @@
+.coupon_cneter_card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid rgba(187, 187, 187, .3);
+
+
+  .coupon_card_left {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-right: 1px solid rgba(187, 187, 187, .3);
+    padding: 10px;
+
+    .coupon_card_left_top {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 10px;
+
+      .coupon_card_left_top_good_name {
+        font-weight: 600;
+        color: rgba(51, 51, 51, 1);
+        font-size: 15px;
+        text-align: left;
+        font-family: PingFangSC-regular;
+        margin-right: 10px;
+
+        overflow: hidden;
+        text-overflow: -o-ellipsis-lastline;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+
+      img.coupon_card_left_top_icon_more {
+        width: 12px;
+        height: 12px;
+      }
+    }
+
+    .coupon_card_left_bottom {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .coupon_card_left_bottom_good_pic {
+        width: 70px;
+        height: 70px;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .coupon_card_right {
+    height: 100%;
+    border-radius: 8px;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .coupon_card_right_line1 {
+    color: rgba(51, 51, 51, .8);
+    font-size: 14px;
+    text-align: center;
+    font-family: PingFangSC-regular;
+  }
+
+  .coupon_card_right_line2 {
+    color: rgba(238, 12, 12, 1);
+    font-size: 17px;
+    font-weight: 600;
+    text-align: left;
+    font-family: PingFangSC-bold;
+  }
+
+  .coupon_card_right_line3 {
+    padding: 0 10px;
+    height: 31px;
+    border-radius: 26px;
+    background-color: rgba(238, 80, 12, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-family: PingFangSC-bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

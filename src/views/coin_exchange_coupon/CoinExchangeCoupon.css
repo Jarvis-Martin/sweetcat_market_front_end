@@ -1,0 +1,90 @@
+.coin_exchange_coupon {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.coin_exchange_coupon .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.coin_exchange_coupon .select_bar {
+  position: fixed;
+  z-index: 10;
+  top: 44px;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1ba4f0;
+}
+.coin_exchange_coupon .select_bar .items {
+  height: 45px;
+  line-height: 54px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  margin-bottom: 5px;
+}
+.coin_exchange_coupon .select_bar .border_bottom {
+  border-bottom: 2px solid #ffffff;
+}
+.coin_exchange_coupon .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.coin_exchange_coupon .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+  border-radius: 16px 16px 0px 0px;
+  min-height: 100vh;
+}
+.coin_exchange_coupon .content_section .content_section_wrapper .content_main {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.coin_exchange_coupon .content_section .content_section_wrapper .content_main .order_car_item {
+  margin-bottom: 15px;
+  width: 345px;
+}
+.coin_exchange_coupon .content_section .content_section_wrapper .content_main .coin_history_statistics_bar {
+  width: 100%;
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  font-family: PingFangSC-bold;
+  border-bottom: 1px solid #bbbbbb;
+  padding: 0 15px 10px 15px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  justify-content: flex-start;
+}
+.coin_exchange_coupon .content_section .content_section_wrapper .content_main .coin_history_statistics_bar .coin_history_statistics_bar_text {
+  color: #ee0c0c;
+  font-size: 16px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}

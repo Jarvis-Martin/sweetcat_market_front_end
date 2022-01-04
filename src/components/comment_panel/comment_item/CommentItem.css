@@ -1,0 +1,107 @@
+.comment_item {
+  width: 375px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 5px;
+  background-color: #ffffff;
+}
+.comment_item .top {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.comment_item .top .left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.comment_item .top .left .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.comment_item .top .left .user_name {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-right: 5px;
+}
+.comment_item .top .left .stars {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.comment_item .top .left .stars .star {
+  width: 10px;
+  height: 10px;
+  margin-right: 1px;
+}
+.comment_item .top .rightm .time {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.comment_item .content_text {
+  color: #333333;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  padding: 10px 0;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.comment_item .content_pics {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 15px 0;
+  overflow: hidden;
+}
+.comment_item .content_pics .comment_pic {
+  margin-bottom: 5px;
+  border-radius: 8px;
+  width: 80px;
+  height: 80px;
+  margin-right: 5px;
+  border: 1px solid rgba(187, 187, 187, 0.3);
+}
+.comment_item .footer {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 15px;
+}
+.comment_item .footer .specification {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.comment_item .footer .text {
+  color: #1ba4f0;
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.comment_item .footer .text .icon_answer {
+  width: 14px;
+  height: 14px;
+  margin-right: 5px;
+}

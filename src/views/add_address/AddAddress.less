@@ -1,0 +1,183 @@
+.add_address {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(245, 245, 245, 1);
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+  .content_section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 16px, rgba(245, 245, 245, 100) 0);
+    height: 623px;
+    .content_main {
+      width: 100%;
+      border-radius: 16px 16px 0px 0px;
+      background-color: rgba(245, 245, 245, 1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 15px;
+
+      .address_field {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        background-color: #fff;
+        width: 100%;
+        .title {
+          color: rgba(51, 51, 51, .8);
+          font-size: 15px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+          width: 60px;
+        }
+        .address_item {
+          width: 285px;
+          color: rgba(51, 51, 51, .8);
+          font-size: 15px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+        }
+      }
+      .set_defalute_address {
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 15px;
+        background-color: #fff;
+        width: 100%;
+        .title {
+          color: rgba(51, 51, 51, .8);
+          font-size: 15px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+          width: 90px;
+        }
+      }
+      .save_address_btn {
+        margin-top: 35px;
+        width: 345px;
+        height: 40px;
+        line-height: 20px;
+        border-radius: 26px;
+        background-color: rgba(27, 164, 240, 1);
+        color: rgba(255, 255, 255, 1);
+        font-size: 18px;
+        text-align: center;
+        font-family: PingFangSC-bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  
+  }
+  .address_mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(20, 0, 0, .4);
+    .address_mask_container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      background-color: #fff;
+      border-radius: 16px 16px 0px 0px;
+      padding: 10px 15px 0 15px;
+
+      .address_option {
+        height: 40px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .address_icon_more {
+          width: 12px;
+          height: 12px;
+        }
+      }
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgba(51, 51, 51, 1);
+        font-weight: 600;
+        font-size: 17px;
+        text-align: center;
+        font-family: PingFangSC-bold;
+      }
+      .selection_section {
+        padding: 15px 0;  
+        width: 345px;
+        height: 340px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-y: scroll;
+        border-top: 1px solid rgba(187, 187, 187, .3);
+        .selection_container {
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          overflow-y: scroll;
+          .title {
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            color: rgba(51, 51, 51, 1);
+            font-size: 15px;
+            text-align: left;
+            font-family: PingFangSC-bold;
+          }
+  
+          .address_select_item {
+            padding: 10px 0;
+            width: 100%;
+            height: 38px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-left: 20px;
+            color: rgba(51, 51, 51, .5);
+            font-size: 15px;
+            text-align: left;
+            font-family: PingFangSC-regular;
+          }
+        }
+      }
+    }
+  }
+}

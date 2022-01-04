@@ -1,0 +1,122 @@
+.good_selection {
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid rgba(187, 187, 187, .3);
+
+  .icon_selection {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+  }  
+  .pic_icon_container {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: rgba(245, 245, 245, 1);
+    .pic_icon {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  .good_info {
+    width: 200px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    .field {
+      width: 181px;
+    }
+
+    .good_name {
+      width: 100%;
+      color: rgba(51, 51, 51, .8);
+      font-size: 15px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+      overflow: hidden;
+      text-overflow: -o-ellipsis-lastline;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+    .good_gurantee {
+      width: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      
+      .good_gurantee_text {
+        background-color: rgba(51, 51, 51, .07);
+        padding: 0 10px;
+        border-radius: 6px;
+      }
+      // .gurantee {
+      //   width: 50px;
+      //   margin-right: 5px;
+      //   color: rgba(27, 164, 240, 1);
+      //   font-size: 10px;
+      //   text-align: center;
+      //   font-family: PingFangSC-regular;
+      // }
+    }
+    .good_price {
+      width: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .price_section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .price {
+          text-align: center;
+          font-family: PingFangSC-bold;
+        }
+        .good_cur_price {
+          font-size: 15px;
+          color: rgba(238, 12, 12, 1);
+          margin-right: 13px;
+        }
+        .good_old_price {
+          font-size: 12px;
+          color: rgba(16, 16, 16, .6);
+        }
+      }
+      .number {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .incr_btn, .decr_btn {
+          width: 12px;
+          height: 12px;
+        }
+        .decr_btn {
+          margin-right: 10px;
+        }
+        .incr_btn {
+          margin-left: 10px;
+        }
+        .text {
+          color: rgba(51, 51, 51, 1);
+          font-size: 15px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+        }
+      }
+    }
+  }
+}

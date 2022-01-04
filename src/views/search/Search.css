@@ -1,0 +1,117 @@
+.search {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.search .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.search .search_page_search_bar {
+  position: fixed;
+  top: 44px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100vw;
+  padding-bottom: 15px;
+  background-color: #1ba4f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search .search_page_search_bar .search_main {
+  width: 345px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(187, 187, 187, 0.3);
+}
+.search .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.search .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+  border-radius: 16px 16px 0px 0px;
+}
+.search .content_section .content_section_wrapper .hot_search_panel {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+  background: linear-gradient(to bottom, #1ba4f0 16px, #f5f5f5 0);
+}
+.search .content_section .content_section_wrapper .hot_search_panel .top {
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff;
+  padding-top: 15px;
+  padding-bottom: 6px;
+}
+.search .content_section .content_section_wrapper .hot_search_panel .top .title {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+  margin-left: 15px;
+}
+.search .content_section .content_section_wrapper .hot_search_panel .top .is_show_btn {
+  margin-right: 15px;
+  color: #333333;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.search .content_section .content_section_wrapper .hot_search_panel .bottom,
+.search .content_section .content_section_wrapper .hot_search_panel .keyword_panel {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+.search .content_section .content_section_wrapper .hot_search_panel .bottom .keyword,
+.search .content_section .content_section_wrapper .hot_search_panel .keyword_panel .keyword {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(187, 187, 187, 0.3);
+  background-color: #fff;
+}
+.search .content_section .content_section_wrapper .right_section {
+  width: 345px;
+  border-radius: 16px;
+  margin-top: 15px;
+}
+.search .content_section .content_section_wrapper .right_section .search_good_car {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}

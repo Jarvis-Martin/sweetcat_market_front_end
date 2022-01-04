@@ -1,0 +1,69 @@
+.comment_panel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(245, 245, 245, 1);
+  .header {
+    height: 51px;
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    // border-bottom: 1px solid rgba(187, 187, 187, .3);
+    padding-bottom: 5px;
+    .left {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      .icon_vertical_stripe {
+        width: 10px;
+        height: 26px;
+      }
+
+      .title {
+        margin-left: 8px;
+        color: rgba(16, 16, 16, 1);
+        font-size: 17px;
+      }
+
+      .comment_count {
+        color: rgba(16, 16, 16, 1);
+        font-size: 12px;
+        margin-left: 10px;
+      }
+    }
+
+    .right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .text {
+        margin-right: 5px;
+        color: rgba(51, 51, 51, 1);
+        font-size: 12px;
+        text-align: left;
+        font-family: PingFangSC-regular;
+      }
+
+      .icon_more {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    .content_item {
+      margin-bottom: 15px;
+      border-radius: 10px;
+      overflow: hidden;
+      border-bottom: 1px solid rgba(187, 187, 187, .3);
+    }
+  }
+}

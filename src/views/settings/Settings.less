@@ -1,0 +1,155 @@
+.settings_page {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(245, 245, 245, 1);
+
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .content_section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 60%, rgba(245, 245, 245, 100) 0);
+    height: 623px;
+
+    .content_section_wrapper {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: rgba(245, 245, 245, 1);
+      border-radius: 16px 16px 0px 0px;
+
+      .content_main {
+        width: 100%;
+        min-height: 100vh;
+        border-radius: 16px 16px 0px 0px;
+        background-color: rgba(245, 245, 245, 1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 15px;
+
+        .user_info_section {
+          background-color: #fff;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          padding: 15px 15px 0 15px;
+
+          .user_info {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(187, 187, 187, .3);
+
+            .user_info_left_section {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              margin-right: 15px;
+
+              .settings_avatar {
+                width: 64px;
+                height: 64px;
+                border-radius: 50%;
+                margin-right: 15px;
+              }
+
+              .user_info_right_section {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+
+                .settings_username {
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 18px;
+                  text-align: left;
+                  font-family: PingFangSC-bold;
+                }
+
+                .settings_useraccount {
+                  margin-top: 8px;
+                  color: rgba(51, 51, 51, .8);
+                  font-size: 15px;
+                  text-align: left;
+                  font-family: PingFangSC-regular;
+                }
+              }
+
+            }
+
+            .more_icon {
+              width: 12px;
+              height: 12px;
+            }
+          }
+        }
+
+        .settings_field {
+          padding: 15px 0;
+          width: 375px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: #fff;
+          height: 44px;
+          padding-left: 15px;
+          padding-right: 15px;
+
+          .settings_field_title {
+            color: rgba(16, 16, 16, 1);
+            font-size: 15px;
+            text-align: left;
+            font-family: PingFangSC-bold;
+            font-weight: 600;
+          }
+
+          .more_icon {
+            width: 12px;
+            height: 12px;
+          }
+        }
+
+        .margin_top {
+          margin-top: 15px;
+        }
+
+        .settings_btn {
+          margin-top: 15px;
+          width: 345px;
+          height: 40px;
+          line-height: 20px;
+          border-radius: 26px;
+          background-color: rgba(27, 164, 240, 1);
+          color: rgba(255, 255, 255, 1);
+          font-size: 18px;
+          text-align: center;
+          font-family: PingFangSC-bold;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.fans_and_likedperon {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.fans_and_likedperon .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.fans_and_likedperon .select_bar {
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #1ba4f0;
+}
+.fans_and_likedperon .select_bar .items {
+  height: 41px;
+  line-height: 54px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  margin-bottom: 5px;
+}
+.fans_and_likedperon .select_bar .border_bottom {
+  border-bottom: 2px solid #ffffff;
+}
+.fans_and_likedperon .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.fans_and_likedperon .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 16px 16px 0px 0px;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+}
+.fans_and_likedperon .content_section .content_section_wrapper .content_main {
+  min-height: 623px;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+  background-color: #fefefe;
+}
+.fans_and_likedperon .content_section .content_section_wrapper .content_main .person_item {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.fans_and_likedperon .content_section .content_section_wrapper .content_main .load_error_page {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fans_and_likedperon .content_section .content_section_wrapper .content_main .load_error_page .load_error_tip {
+  width: 24%;
+}
+.fans_and_likedperon .content_section .content_section_wrapper .content_main .load_error_page .load_error_text {
+  margin-top: 12px;
+  color: #101010;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 600;
+  font-family: PingFangSC-regular;
+}

@@ -1,0 +1,34 @@
+.recommend_topic {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.recommend_topic .topic_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 345px;
+  height: 45px;
+}
+.recommend_topic .topic_header .title {
+  font-size: 15px;
+  color: #333333;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+}
+.recommend_topic .topic_header .more {
+  display: flex;
+  align-items: center;
+}
+.recommend_topic .topic_header .more .text {
+  color: #333333;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+}
+.recommend_topic .topic_header .more .icon_more {
+  margin-left: 5px;
+  width: 12px;
+  height: 12px;
+}

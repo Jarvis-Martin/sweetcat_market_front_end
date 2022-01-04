@@ -1,0 +1,42 @@
+.title_bar {
+  width: 100vw;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(27, 164, 240, 1);
+
+  .left, .right, .center {
+    flex: 1;
+  }
+  .left, .right {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    display: flex;
+    align-items: center;
+    
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+  .left {
+    justify-content: flex-start;
+    padding-left: 10px;
+  }
+  .right {
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+  .center {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: Microsoft Yahei;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+}

@@ -1,0 +1,162 @@
+.my_recommend_good_card {
+  width: 345px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  
+  .my_recommend_good_card_tool_section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+    .time {
+      color: rgba(51, 51, 51, .8);
+      font-size: 15px;
+      text-align: left;
+      font-family: PingFangSC-bold;
+    }
+    .delete_btn {
+      padding: 5px 18px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      border-radius: 22px;
+      background-color: rgba(255, 255, 255, 1);
+      text-align: center;
+      border: 1px solid rgba(27, 164, 240, 1);
+
+      .icon_delete {
+        width: 18px;
+        height: 18px;
+        margin-right: 5px;
+      }
+      .text {
+        color: #EE0C0C;
+        font-size: 15px;
+        text-align: center;
+        font-family: PingFangSC-bold;
+      }
+    }
+
+  }
+  .good_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 121px;
+
+    .good_pic {
+      width: 90px;
+      height: 90px;
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: rgba(245, 245, 245, 1);
+
+      .pic {
+        width: 100%;
+      }
+    }
+    .good_info {
+      width: 210px;
+      display: flex;
+      padding-top: 20px;
+      padding-bottom: 17px;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+
+
+      .good_name {
+        overflow: hidden;
+        text-overflow: -o-ellipsis-lastline;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+      .good_name, .good_desc {
+        width: 195px;
+        color: rgba(51, 51, 51, 1);
+        font-size: 15px;
+        text-align: left;
+        font-family: PingFangSC-regular;
+      }
+      .good_desc {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgba(51, 51, 51, 1);
+        font-size: 12px;
+        text-align: left;
+        font-family: PingFangSC-regular;
+      }
+      .sale_number {
+        text-align: left;
+      }
+      .good_comment_number {
+        text-align: right;
+      }
+      .good_price {
+        color: rgba(238, 12, 12, 1);
+        font-size: 15px;
+        text-align: left;
+        font-family: PingFangSC-bold;
+      }
+      .good_star {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .text {
+          color: rgba(51, 51, 51, 100);
+          font-size: 15px;
+          text-align: left;
+          font-family: PingFangSC-regular;
+          margin-right: 5px;
+          display: inline-block;
+          padding-top: 4px;
+        }
+        .stars_section {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  .recomment_reason {
+    width: 345px;
+    padding: 15px 15px;
+    text-align: left;
+    .recomment_reason_title {
+      color: rgba(51, 51, 51, .6);
+      font-size: 14px;
+      text-align: left;
+      font-family: PingFangSC-bold;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .recomment_reason_content {
+      text-indent: 2em;
+      color: rgba(51, 51, 51, .6);
+      font-size: 14px;
+      text-align: left;
+      font-weight: 600;
+      margin-bottom: 5px;
+      line-height: 1.5em;
+    }
+  }
+}

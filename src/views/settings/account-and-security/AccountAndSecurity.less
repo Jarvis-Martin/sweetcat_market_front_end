@@ -1,0 +1,68 @@
+.account_and_security_page {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 1);
+  min-height: 100vh;
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .content_section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 16px, rgba(245, 245, 245, 100) 0);
+    .content_main {
+      width: 100%;
+      border-radius: 16px 16px 0px 0px;
+      background-color: rgba(245, 245, 245, 1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      padding-top: 15px;
+      .account_and_security_page_field {
+        background-color: #fff;
+        padding: 5px 30px;
+        width: 375px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .account_and_security_page_left {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          .account_and_security_page_title {
+            width: 100px;
+            color: rgba(51, 51, 51, 1);
+            font-size: 15px;
+            text-align: left;
+            font-family: PingFangSC-bold;
+            margin-right: 10px;
+          }
+          .default_value {
+            width: 178px;
+            text-align-last: left;
+            margin-right: 15px;
+            color: rgba(51, 51, 51, .5);
+            text-align: left;
+            font-family: PingFangSC-regular;
+          }
+        }
+        .account_and_security_page_icon_more {
+          width: 12px;
+          height: 12px;
+        }
+      }
+    }
+  }
+}

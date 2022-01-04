@@ -1,0 +1,178 @@
+.profile {
+  width: 100vw;
+  height: 607px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: rgba(27, 164, 240, 1);
+  background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 60%, rgba(245, 245, 245, 100) 0);
+      
+  .home_scroll_wrapper {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .fake_header_bar {
+      width: 100vw;
+      height: 24px;
+
+    }
+  
+    .user_car {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      height: 100px;
+
+      .avatar {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+      .user_info {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        .user_name {
+          color: rgba(255, 255, 255, 1);
+          font-size: 18px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+          margin-bottom: 10px;
+        }
+        .user_level {
+          color: rgba(255, 255, 255, 1);
+          font-size: 12px;
+          text-align: left;
+          font-family: PingFangSC-regular;
+        }
+      }
+      .icon_notification {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    .content_section {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // background-color: rgba(27, 164, 240, 1);
+      background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 16px, rgba(245, 245, 245, 100) 0);
+      .content_main {
+        width: 100%;
+        border-radius: 16px 16px 0px 0px;
+        background-color: rgba(245, 245, 245, 1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 15px;
+  
+        .topic {
+          margin-bottom: 15px;
+        }
+        .divition {
+          width: 100vw;
+          height: 20px;
+  
+        }
+        .parting_line {
+          width: 345px;
+          height: 3px;
+        }
+        .title {
+          color: rgba(16, 16, 16, 100);
+          font-size: 18px;
+          font-weight: 600;
+          margin-top: 15px;
+        }
+        .other_service {
+          .other_service_topic {
+            width: 345px;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20px;
+            background-color: rgba(255, 255, 255, 1);
+            
+            .topic_header {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 345px;
+              height: 45px;
+              margin-bottom: 5px;
+          
+              .title {
+                font-size: 15px;
+                color: rgba(51, 51, 51, 1);
+                font-family: PingFangSC-bold;
+                margin-left: 15px;
+              }
+            }
+            .topic_content {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              flex-flow: row wrap;
+              .container {
+                padding-top: 5px;
+                padding-bottom: 15px;
+                flex: 0 0 25%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                .icon_pic {
+                  margin-bottom: 10px;
+                  width: 26px;
+                  height: 26px;
+                }
+                .other_service_title {
+                  color: rgba(16, 16, 16, 1);
+                  font-size: 12px;
+                  font-family: PingFangSC-regular;
+                }
+              }
+            }
+          }
+        }
+
+        .individual_service {
+          width: 345px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          .individual_item {
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 8px;
+            width: 165px;
+
+            .individual_item_icon {
+              width: 40px;
+              height: 40px;
+            }
+            .individual_item_text {
+              color: rgba(51, 51, 51, 1);
+              font-size: 15px;
+              text-align: left;
+              font-family: PingFangSC-bold;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}

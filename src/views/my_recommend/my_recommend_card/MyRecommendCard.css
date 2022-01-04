@@ -1,0 +1,155 @@
+.my_recommend_good_card {
+  width: 345px;
+  background-color: #ffffff;
+  color: #101010;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+.my_recommend_good_card .my_recommend_good_card_tool_section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.my_recommend_good_card .my_recommend_good_card_tool_section .time {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.my_recommend_good_card .my_recommend_good_card_tool_section .delete_btn {
+  padding: 5px 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 22px;
+  background-color: #ffffff;
+  text-align: center;
+  border: 1px solid #1ba4f0;
+}
+.my_recommend_good_card .my_recommend_good_card_tool_section .delete_btn .icon_delete {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+.my_recommend_good_card .my_recommend_good_card_tool_section .delete_btn .text {
+  color: #EE0C0C;
+  font-size: 15px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+}
+.my_recommend_good_card .good_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 121px;
+}
+.my_recommend_good_card .good_section .good_pic {
+  width: 90px;
+  height: 90px;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+.my_recommend_good_card .good_section .good_pic .pic {
+  width: 100%;
+}
+.my_recommend_good_card .good_section .good_info {
+  width: 210px;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 17px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.my_recommend_good_card .good_section .good_info .good_name {
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.my_recommend_good_card .good_section .good_info .good_name,
+.my_recommend_good_card .good_section .good_info .good_desc {
+  width: 195px;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.my_recommend_good_card .good_section .good_info .good_desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.my_recommend_good_card .good_section .good_info .sale_number {
+  text-align: left;
+}
+.my_recommend_good_card .good_section .good_info .good_comment_number {
+  text-align: right;
+}
+.my_recommend_good_card .good_section .good_info .good_price {
+  color: #ee0c0c;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.my_recommend_good_card .good_section .good_info .good_star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_recommend_good_card .good_section .good_info .good_star .text {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  margin-right: 5px;
+  display: inline-block;
+  padding-top: 4px;
+}
+.my_recommend_good_card .good_section .good_info .good_star .stars_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_recommend_good_card .recomment_reason {
+  width: 345px;
+  padding: 15px 15px;
+  text-align: left;
+}
+.my_recommend_good_card .recomment_reason .recomment_reason_title {
+  color: rgba(51, 51, 51, 0.6);
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.my_recommend_good_card .recomment_reason .recomment_reason_content {
+  text-indent: 2em;
+  color: rgba(51, 51, 51, 0.6);
+  font-size: 14px;
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 5px;
+  line-height: 1.5em;
+}

@@ -1,0 +1,71 @@
+.good_item {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 120px;
+  border-bottom: 1px solid rgba(187, 187, 187, .3);
+  
+  .good_pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+  }
+  
+  .good_info {
+    width: 230px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .field {
+      margin-top: 12px;
+    }
+    .good_name, .goo_specification {
+      width: 230px;
+      height: 20px;
+      color: rgba(51, 51, 51, .8);
+      font-size: 15px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+
+      overflow: hidden;
+      text-overflow: -o-ellipsis-lastline;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+
+    .good_price {
+      width: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .price_section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .price {
+          text-align: center;
+          font-family: PingFangSC-bold;
+        }
+        .good_cur_price {
+          font-size: 15px;
+          color: rgba(238, 12, 12, 1);
+          margin-right: 13px;
+        }
+        .good_price {
+          font-size: 12px;
+          color: rgba(16, 16, 16, .6);
+        }
+      }
+    }
+  }
+}

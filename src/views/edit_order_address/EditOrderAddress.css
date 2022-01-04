@@ -1,0 +1,126 @@
+.edit_order_address {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.edit_order_address .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.edit_order_address .fake_select_bar {
+  background-color: #f5f5f5;
+}
+.edit_order_address .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.edit_order_address .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+  border-radius: 16px 16px 0px 0px;
+}
+.edit_order_address .content_section .content_section_wrapper .content_main {
+  height: 100vh;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.edit_order_address .content_section .content_section_wrapper .content_main .edit_order_address_topic {
+  width: 100%;
+  border: 1px solid rgba(187, 187, 187, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+}
+.edit_order_address .content_section .content_section_wrapper .content_main .edit_order_address_topic .edit_order_address_topic_header {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  padding-top: 15px;
+}
+.edit_order_address .content_section .content_section_wrapper .content_main .edit_order_address_body {
+  border-radius: 26px;
+  margin-top: 25px;
+  width: 100%;
+  border: 1px solid rgba(187, 187, 187, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  padding: 15px 0;
+}
+.edit_order_address .content_section .content_section_wrapper .content_main .edit_order_address_body .edit_order_address_topic_header_container {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.edit_order_address .content_section .content_section_wrapper .content_main .edit_order_address_body .edit_order_address_topic_header_container .edit_order_address_topic_tip {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.edit_order_address .content_section .content_section_wrapper .content_main .edit_order_address_body .edit_order_address_topic_header_container .add_new_address {
+  color: rgba(51, 51, 51, 0.7);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.edit_order_address .comment_btn_container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100vw;
+  background-color: #fff;
+}
+.edit_order_address .comment_btn_container .publich_comment_btn {
+  width: 345px;
+  height: 40px;
+  line-height: 20px;
+  border-radius: 26px;
+  background-color: #1ba4f0;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

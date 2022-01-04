@@ -1,0 +1,722 @@
+.good_detail {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // background-color: rgba(245, 245, 245, 1);
+  // background-color: rgba(27, 164, 240, 1);
+  background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 60%, rgba(245, 245, 245, 100) 0);
+
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .fake_title_bar {
+    background-color: rgba(245, 245, 245, 100);
+  }
+
+  .fake_select_bar {
+    background-color: rgba(245, 245, 245, 100);
+  }
+
+  .select_bar {
+    position: fixed;
+    z-index: 10;
+    top: 44px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(27, 164, 240, 1);
+
+    .items {
+      height: 45px;
+      line-height: 54px;
+      border-bottom: 2px solid rgba(255, 255, 255, 1);
+      margin-bottom: 5px;
+
+      a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        font-size: 18px;
+        text-align: center;
+        font-family: PingFangSC-bold;
+      }
+    }
+  }
+
+  .content_section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 518px;
+
+    .content_section_wrapper {
+      background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 5%, rgba(245, 245, 245, 1) 0);
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 45px;
+
+      .good_pics {
+        width: 375px;
+        height: 375px;
+        overflow: hidden;
+        margin-top: 5px;
+        // border: 1px solid rgba(187, 187, 187, .3);
+      }
+
+      .good_detail_info {
+        width: 100vw;
+        background-color: rgba(245, 245, 245, 1);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        .field {
+          width: 345px;
+          margin-bottom: 15px;
+          display: flex;
+        }
+
+        .price {
+          margin-top: 15px;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .price_number {
+          color: rgba(238, 12, 12, 1);
+          font-size: 17px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+        }
+
+        .sale_number_per_month {
+          color: rgba(16, 16, 16, 1);
+          font-size: 14px;
+          text-align: right;
+          font-family: PingFangSC-bold;
+        }
+
+        .name {
+          color: rgba(16, 16, 16, 1);
+          font-size: 17px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+
+
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          line-clamp: 2;
+          -webkit-box-orient: vertical;
+        }
+
+        .title_for_selection {
+          width: 28px;
+          color: rgba(16, 16, 16, .6);
+          font-size: 14px;
+          text-align: left;
+          font-family: PingFangSC-regular;
+          margin-bottom: 1px solid rgba(187, 187, 187, 1);
+        }
+
+        .placeholder {
+          width: 260px;
+          color: rgba(16, 16, 16, 1);
+          font-size: 16px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+        }
+
+        .icon_more {
+          width: 12px;
+          height: 12px;
+          background-color: rgba(255, 255, 255, 1);
+        }
+
+        .specification_field {
+          border-radius: 12px;
+          background-color: rgba(255, 255, 255, 1);
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+
+          .sub_filed {
+            width: 315px;
+            display: flex;
+            align-items: center;
+            height: 46px;
+            justify-content: space-between
+          }
+
+          .specification,
+          .number {
+            // border-bottom: 1px solid rgba(187, 187, 187, 1);
+            display: flex;
+
+            .icon_more_container {
+              width: 230px;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+
+              .icon_more {
+                width: 12px;
+                height: 12px;
+              }
+            }
+
+
+            .number_operation {
+              display: flex;
+              align-items: center;
+
+              .incr,
+              .decr {
+                width: 12px;
+                height: 12px;
+              }
+
+              .text {
+                color: rgba(51, 51, 51, 1);
+                font-size: 15px;
+                text-align: left;
+                font-family: PingFangSC-bold;
+                margin-left: 15px;
+                margin-right: 15px;
+              }
+            }
+          }
+
+          .number {
+            border-bottom: none;
+          }
+        }
+
+        .gurantee {
+          border-radius: 12px;
+          background-color: rgba(255, 255, 255, 1);
+          align-items: center;
+          justify-content: space-between;
+          width: 345px;
+          height: 46px;
+          padding: 0 15px;
+
+          .gurantee_text {
+            text-align-last: left;
+            width: 280px;
+          }
+        }
+      }
+
+      .coin_discount_section {
+        width: 345px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 5px;
+
+        .coin_discount_section_left {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          .coin_counteract_price {
+            padding: 0 5px;
+            font-size: 13px;
+            text-align: left;
+            font-family: PingFangSC-regular;
+            background-color: rgba(255, 166, 0, 0.226);
+            border-radius: 8px;
+            margin-right: 5px;
+            color: #ee0c0c;
+          }
+
+          .has_coupon {
+            padding: 0 5px;
+            font-size: 13px;
+            text-align: left;
+            font-family: PingFangSC-regular;
+            background-color: rgba(255, 166, 0, 0.226);
+            border-radius: 8px;
+            color: rgba(238, 12, 12, 1);
+          }
+        }
+
+        .coin_discount_section_right {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .coin_discount_section_right_text {
+            color: rgba(238, 12, 12, 1);
+            font-size: 15px;
+            text-align: left;
+            font-family: PingFangSC-bold;
+            margin-right: 5px;
+          }
+
+          .coin_discount_section_icon_more {
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+
+      .detail_section {
+        width: 100vw;
+
+        .detail_pic {
+          width: 100%;
+        }
+      }
+
+      .commend_section {
+        width: 100vw;
+        background-color: rgba(255, 255, 255, 1);
+        margin-top: 15px;
+      }
+
+      .topic {
+        margin-bottom: 15px;
+      }
+
+      .good_detail_recommend {
+        padding-bottom: 45px;
+      }
+
+      .divition {
+        width: 100vw;
+        height: 60px;
+      }
+
+      .title {
+        color: rgba(16, 16, 16, 100);
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 15px;
+      }
+
+      .parting_line {
+        width: 345px;
+        height: 3px;
+      }
+    }
+  }
+
+  .tool_bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 1);
+    // border: 1px solid rgba(255, 0, 0, 0);
+    height: 55px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+
+    .btn_small {
+      width: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(255, 255, 255, 1);
+
+      .icon {
+        width: 20px;
+        height: 20px;
+      }
+
+      .text {
+        height: 12px;
+        color: rgba(16, 16, 16, 1);
+        font-size: 13px;
+        text-align: left;
+        font-family: PingFangSC-bold;
+      }
+    }
+
+    .btn_big,
+    .add2car,
+    .buy {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255, 255, 255, 1);
+      font-size: 15px;
+      font-family: PingFangSC-bold;
+
+      width: 116px;
+      height: 38px;
+      line-height: 20px;
+      border-radius: 26px 26px 26px 26px;
+    }
+
+    .favorite {
+      margin-right: 5px;
+    }
+
+    .add2car {
+      margin-right: 5px;
+      background-color: rgba(238, 80, 12, 1);
+    }
+
+    .buy {
+      background-color: rgba(238, 177, 78, 1);
+    }
+  }
+
+
+  .good_detail_user_mask {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    .good_detail_user_info_mask_main {
+      width: 100%;
+      height: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: #fff;
+      margin-top: 25px;
+      border-radius: 16px 16px 0px 0px;
+
+      .good_detail_coupons {
+        width: 345px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+
+      .comment_btn_container {
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 100vw;
+        background-color: #fff;
+      }
+
+      .publich_comment_btn {
+        width: 345px;
+        height: 40px;
+        line-height: 20px;
+        border-radius: 26px;
+        background-color: #1ba4f0;
+        color: #ffffff;
+        font-size: 18px;
+        text-align: center;
+        font-family: PingFangSC-bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .confirm_container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 95px;
+    overflow-x: scroll;
+    background-color: #fff;
+
+    .content_section {
+      height: 90vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 16px, rgba(245, 245, 245, 100) 0);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+
+      .content_main {
+        width: 100%;
+        border-radius: 16px 16px 0px 0px;
+        background-color: rgba(245, 245, 245, 1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .confirm_good_info_page_good_section {
+          padding: 25px 15px 15px 15px;
+          width: 375px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          background-color: #fff;
+          border-bottom: 1px solid rgba(187, 187, 187, .3);
+
+          .good_pic {
+            width: 70px;
+            height: 70px;
+            border-radius: 6px;
+            margin-right: 15px;
+          }
+
+          .good_right {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+            .confirm_good_info_page_price {
+              color: rgba(238, 12, 12, 1);
+              font-size: 16px;
+              text-align: left;
+              font-family: PingFangSC-bold;
+            }
+
+            .confirm_good_info_page_stock {
+              color: rgba(51, 51, 51, .5);
+              font-size: 13px;
+              text-align: left;
+              font-family: PingFangSC-regular;
+            }
+
+            .confirm_good_info_page_specification {
+              color: rgba(51, 51, 51, .8);
+              font-size: 13px;
+              text-align: left;
+              font-family: PingFangSC-regular;
+            }
+          }
+        }
+
+        .confim_good_info_page_specification_section {
+          width: 375px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          background-color: #fff;
+          padding-bottom: 15px;
+          border-bottom: 1px solid rgba(187, 187, 187, .3);
+
+          .confim_good_info_page_specification_header {
+            color: rgba(51, 51, 51, 1);
+            font-size: 15px;
+            text-align: left;
+            font-weight: 600;
+            font-family: PingFangSC-bold;
+            padding: 15px;
+          }
+
+          .confim_good_info_page_specification_field {
+            color: rgba(51, 51, 51, 1);
+            font-size: 15px;
+            text-align: left;
+            font-family: PingFangSC-bold;
+            padding-right: 15px;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+            margin-left: 25px;
+            border-radius: 8px;
+            background-color: rgba(245, 245, 245, 1);
+          }
+
+          .number {
+            width: 375px;
+            display: flex;
+            padding: 15px 15px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .title {
+              color: rgba(51, 51, 51, 1);
+              font-size: 15px;
+              text-align: left;
+              font-weight: 600;
+              font-family: PingFangSC-bold;
+              padding: 15px;
+            }
+
+            .number_operation {
+              display: flex;
+              align-items: center;
+
+              .incr,
+              .decr {
+                width: 12px;
+                height: 12px;
+              }
+
+              .text {
+                color: rgba(51, 51, 51, 1);
+                font-size: 15px;
+                text-align: left;
+                font-family: PingFangSC-bold;
+                margin-left: 15px;
+                margin-right: 15px;
+              }
+            }
+          }
+
+          .specification_icon {
+            .confim_good_info_page_specification_header {
+              color: rgba(51, 51, 51, 1);
+              font-size: 15px;
+              text-align: left;
+              font-weight: 600;
+              font-family: PingFangSC-bold;
+              padding: 15px;
+            }
+
+            .specification_btns {
+              display: flex;
+              flex-wrap: wrap;
+
+              .confim_good_info_page_specification_field {
+                color: rgba(51, 51, 51, 1);
+                font-size: 15px;
+                text-align: left;
+                font-family: PingFangSC-bold;
+                padding-right: 15px;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+                margin-left: 25px;
+                border-radius: 8px;
+                background-color: rgba(245, 245, 245, 1);
+              }
+            }
+          }
+
+          .post_type_container {
+            width: 100%;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+            .post_type_title {
+              color: rgba(51, 51, 51, 1);
+              font-size: 15px;
+              text-align: left;
+              font-weight: 600;
+              font-family: PingFangSC-bold;
+              margin-bottom: 10px;
+
+              .post_type_title_tip {
+                font-size: 10px;
+                text-align: left;
+                font-family: PingFangSC-regular;
+                margin-left: 5px;
+              }
+            }
+
+            .post_type_body {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+              padding-left: 10px;
+            }
+
+            .post_type_tip {
+              margin-top: 5px;
+              font-size: 13px;
+              text-align: left;
+              font-family: PingFangSC-regular;
+            }
+          }
+        }
+      }
+    }
+
+    .confirm_faker_footer {
+      height: 99px;
+    }
+
+    .comment_btn_container {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      background-color: #fff;
+      padding-top: 5px;
+
+      .coupon_tip {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .confirm_btns_con {
+        margin: 10px 0 5px 0;
+        width: 345px;
+        height: 40px;
+        border-radius: 26px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .publich_comment_btn {
+        flex: 1;
+        height: 100%;
+        background-color: rgba(27, 164, 240, 1);
+        color: rgba(255, 255, 255, 1);
+        font-size: 18px;
+        text-align: center;
+        font-family: PingFangSC-bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .confirm_close_btn {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+    }
+  }
+}

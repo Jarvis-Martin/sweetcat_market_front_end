@@ -1,0 +1,126 @@
+.recommender_good_item {
+  width: 345px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(16, 16, 16, 1);
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  .good_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 121px;
+    border-bottom: 1px solid rgba(187, 187, 187, .3);
+
+    .good_pic {
+      width: 90px;
+      height: 90px;
+      border-radius: 6px;
+      overflow: hidden;
+      background-color: rgba(245, 245, 245, 1);
+
+      .pic {
+        width: 100%;
+      }
+    }
+    .good_info {
+      width: 210px;
+      display: flex;
+      padding-top: 20px;
+      padding-bottom: 17px;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+
+      .good_name {
+        overflow: hidden;
+        text-overflow: -o-ellipsis-lastline;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+      .good_name, .good_desc {
+        width: 195px;
+        color: rgba(51, 51, 51, 1);
+        font-size: 15px;
+        text-align: left;
+        font-family: PingFangSC-regular;
+      }
+      .good_desc {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: rgba(51, 51, 51, 1);
+        font-size: 12px;
+        text-align: left;
+        font-family: PingFangSC-regular;
+      }
+      .sale_number {
+        text-align: left;
+      }
+      .good_comment_number {
+        text-align: right;
+      }
+      .good_price {
+        color: rgba(238, 12, 12, 1);
+        font-size: 15px;
+        text-align: left;
+        font-family: PingFangSC-bold;
+      }
+      .good_star {
+        .text {
+          color: rgba(51, 51, 51, 100);
+          font-size: 12px;
+          text-align: left;
+          font-family: PingFangSC-regular;
+          margin-right: 5px;
+          display: inline-block;
+        }
+        .star {
+          width: 10px;
+          height: 10px;
+          margin-right: 1px;
+        }
+      }
+    }
+  }
+  .recomment_reason {
+    width: 345px;
+    padding: 15px 15px;
+    text-align: left;
+    .recomment_reason_title {
+      color: rgba(51, 51, 51, .6);
+      font-size: 14px;
+      text-align: left;
+      font-family: PingFangSC-bold;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+    .recomment_reason_content {
+      text-indent: 2em;
+      color: rgba(51, 51, 51, .6);
+      font-size: 14px;
+      text-align: left;
+      font-family: PingFangSC-bold;
+      font-weight: 600;
+      margin-bottom: 5px;
+      line-height: 1.5em;
+    }
+  }
+  .recommend_time {
+    padding: 0 15px 15px 15px;
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: rgba(51, 51, 51, .5);
+    font-size: 12px;
+    text-align: left;
+    font-family: PingFangSC-bold;
+  }
+}

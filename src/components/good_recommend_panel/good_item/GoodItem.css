@@ -1,0 +1,71 @@
+.recommend_good_item {
+  width: 165px;
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.recommend_good_item .good_pic {
+  width: 145px;
+  height: 145px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.recommend_good_item .good_pic .pic {
+  width: 100%;
+}
+.recommend_good_item .good_name {
+  width: 145px;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.recommend_good_item .recommend_good_item_good_price {
+  width: 145px;
+  color: #ee0c0c;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.recommend_good_item .coin_counteract_price {
+  width: 145px;
+  color: orange;
+  font-size: 10px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-bottom: 5px;
+}
+.recommend_good_item .add_car_number {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 145px;
+}
+.recommend_good_item .add_car_number .number {
+  color: #333333;
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.recommend_good_item .add_car_number .add2car {
+  width: 15px;
+  height: 15px;
+}
+.recommend_good_item .good_pic,
+.recommend_good_item .good_name,
+.recommend_good_item .good_price,
+.recommend_good_item .add_car_number {
+  margin-bottom: 10px;
+}

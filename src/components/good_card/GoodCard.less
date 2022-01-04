@@ -1,0 +1,92 @@
+.good_card {
+  width: 100%;
+  height: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  // border-bottom: 1px solid rgba(187, 187, 187, 34);;
+  :last-child {
+    border: none;
+  }
+  .pic_icon_container {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: rgba(245, 245, 245, 1);
+    .pic_icon {
+      width: 70px;
+      height: 70px;
+    }
+
+  }
+
+  .good_info {
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    
+    .good_name {
+      color: rgba(51, 51, 51, .8);
+      font-size: 15px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+      overflow: hidden;
+      text-overflow: -o-ellipsis-lastline;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+    }
+    .good_gurantee {
+      width: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .gurantee {
+        width: 50px;
+        margin-right: 5px;
+        color: rgba(27, 164, 240, 1);
+        font-size: 10px;
+        text-align: center;
+        font-family: PingFangSC-regular;
+        background-color: rgba(245, 245, 245, 1);
+      }
+    }
+    .good_price {
+      width: 100%;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .price_section {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .price {
+          text-align: center;
+          font-family: PingFangSC-bold;
+        }
+        .good_cur_price {
+          font-size: 15px;
+          color: rgba(238, 12, 12, 1);
+          margin-right: 13px;
+        }
+        .good_old_price {
+          font-size: 12px;
+          color: rgba(16, 16, 16, .6);
+        }
+      }
+
+      .add2car {
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}

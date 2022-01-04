@@ -1,0 +1,57 @@
+.coin_history_card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.coin_history_card .coin_history_card_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.coin_history_card .coin_history_card_left .coin_history_card_icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 8xp;
+  margin-right: 10px;
+}
+.coin_history_card .coin_history_card_left .coin_history_card_center {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.coin_history_card .coin_history_card_left .coin_history_card_center .card_center_top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5px;
+}
+.coin_history_card .coin_history_card_left .coin_history_card_center .card_center_top .card_center_top_tag {
+  border-radius: 4px;
+  background-color: rgba(27, 164, 240, 0.1);
+  width: 42px;
+  margin-right: 5px;
+}
+.coin_history_card .coin_history_card_left .coin_history_card_center .card_center_top .card_center_top_detail {
+  color: #1ba4f0;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.coin_history_card .coin_history_card_left .coin_history_card_center .card_center_bottom {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 10px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.coin_history_card .coin_history_card_right {
+  color: #ee0c0c;
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+}

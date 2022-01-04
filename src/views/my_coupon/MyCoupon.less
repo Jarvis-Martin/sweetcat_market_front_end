@@ -1,0 +1,121 @@
+.my_coupon {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgba(245, 245, 245, 1);
+
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .select_bar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(27, 164, 240, 1);
+    position: fixed;
+    z-index: 10;
+    top: 44px;
+    left: 0;
+    right: 0;
+
+    .items {
+      height: 47px;
+      line-height: 54px;
+      color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+      text-align: center;
+      font-family: PingFangSC-bold;
+      margin-bottom: 5px;
+    }
+  }
+
+  .border_bottom {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+  }
+
+  .content_section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 60%, rgba(245, 245, 245, 100) 0);
+    height: 623px;
+
+    .content_section_wrapper {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: rgba(245, 245, 245, 1);
+      border-radius: 16px 16px 0px 0px;
+
+      .content_main {
+        min-height: 100vh;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        .mycoupon_tool_bar {
+          width: 345px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          .mycoupon_use_history_btn {
+            padding: 15px 0;
+            color: rgba(27, 164, 240, 1);
+            font-size: 15px;
+            text-align: left;
+            font-family: PingFangSC-regular;
+          }
+        }
+        .coupon_topic {
+          overflow: hidden;
+          border-radius: 16px;
+          margin-bottom: 15px;
+          width: 345px;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+
+  .mask_message {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(20, 0, 0, .4);
+
+    .operate_option {
+      width: 345px;
+      height: 44px;
+      color: rgba(51, 51, 51, 1);
+      font-size: 15px;
+      text-align: left;
+      font-family: PingFangSC-bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+    }
+  }
+}

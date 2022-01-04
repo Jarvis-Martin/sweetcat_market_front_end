@@ -1,0 +1,178 @@
+.car {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.car .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.car .content_section {
+  height: 563px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+}
+.car .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.car .content_section .content_main {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.car .content_section .content_main .edit_btn {
+  height: 48px;
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #101010;
+  font-size: 18px;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+}
+.car .content_section .content_main .selection_goods {
+  width: 375px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.car .content_section .content_main .selection_goods .good_selection_container {
+  position: relative;
+  z-index: 100;
+}
+.car .content_section .content_main .selection_goods .tip {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  border-top: 1px solid rgba(187, 187, 187, 0.3);
+}
+.car .content_section .content_main .selection_goods .tip .left {
+  width: 254px;
+  color: #101010;
+  font-size: 11px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.car .content_section .content_main .selection_goods .tip .left .blue {
+  color: #1ba4f0;
+}
+.car .content_section .content_main .selection_goods .tip .left .red {
+  color: #ee0c0c;
+}
+.car .content_section .content_main .selection_goods .tip .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car .content_section .content_main .selection_goods .tip .right .text {
+  color: #ee0c0c;
+  font-size: 11px;
+  font-family: PingFangSC-bold;
+}
+.car .content_section .content_main .selection_goods .tip .right .icon_more {
+  width: 12px;
+  height: 12px;
+}
+.car .content_section .content_main .topic {
+  margin-bottom: 15px;
+}
+.car .content_section .content_main .divition {
+  width: 100vw;
+  height: 60px;
+}
+.car .content_section .content_main .parting_line {
+  width: 345px;
+  height: 3px;
+}
+.car .content_section .content_main .title {
+  color: #101010;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.car .content_section .fake_total_bar {
+  width: 100%;
+  height: 55px;
+}
+.car .total_bar {
+  z-index: 100;
+  position: fixed;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  height: 55px;
+  border-radius: 12px 12px 0px 0px;
+  background-color: #ffffff;
+  border: 1px solid rgba(255, 0, 0, 0);
+}
+.car .total_bar .total_bar_component_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 55px;
+}
+.car .total_bar .total_bar_component_container .left_section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 5px;
+}
+.car .total_bar .total_bar_component_container .left_section .total_price {
+  color: #333333;
+  font-size: 15px;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.car .total_bar .total_bar_component_container .left_section .total_price .price {
+  color: #ee0c0c;
+  font-size: 15px;
+  font-family: PingFangSC-bold;
+}
+.car .total_bar .total_bar_component_container .left_section .discount_price {
+  color: #333333;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+}
+.car .total_bar .total_bar_component_container .compute_btn,
+.car .total_bar .total_bar_component_container .car_move_2_favorite,
+.car .total_bar .total_bar_component_container .car_delete {
+  width: 115px;
+  height: 31px;
+  border-radius: 26px;
+  background-color: #ee500c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: PingFangSC-bold;
+}
+.car .total_bar .total_bar_component_container .car_move_2_favorite {
+  margin-right: 5px;
+}

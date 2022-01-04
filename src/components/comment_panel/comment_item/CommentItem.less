@@ -1,0 +1,114 @@
+.comment_item {
+  width: 375px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; 
+  padding-bottom: 5px;
+  background-color: rgba(255, 255, 255, 1);
+  .top {
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(187, 187, 187, .3);
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .avatar {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+  
+      .user_name {
+        color: rgba(51, 51, 51, 1);
+        font-size: 15px;
+        text-align: left;
+        font-family: PingFangSC-bold;
+        margin-right: 5px;
+      }
+  
+      .stars {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .star {
+          width: 10px;
+          height: 10px;
+          margin-right: 1px;
+        }
+      }
+    }
+  
+    .rightm .time {
+      color: rgba(51, 51, 51, .8);
+      font-size: 12px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+    }
+  }
+  
+  .content_text {
+    color: rgba(51, 51, 51, 1);
+    font-size: 13px;
+    text-align: left;
+    font-family: PingFangSC-bold;
+    padding: 10px 0;
+    line-height: 20px;
+    
+    overflow: hidden;
+    text-overflow: -o-ellipsis-lastline;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  
+  .content_pics {
+    width: 345px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    flex-wrap: wrap;
+    padding: 15px 0;
+    overflow: hidden;
+    
+    .comment_pic {
+      margin-bottom: 5px;
+      border-radius: 8px;
+      width: 80px;
+      height: 80px;
+      margin-right: 5px; 
+      border: 1px solid rgba(187, 187, 187, .3);
+    }
+  }
+  .footer {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 15px;
+    .specification {
+      color: rgba(51, 51, 51, .8);
+      font-size: 12px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+    }
+    .text {
+      .icon_answer {
+        width: 14px;
+        height: 14px;
+        margin-right: 5px;
+      }
+      color: rgba(27, 164, 240, 100);
+      font-size: 12px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+    }
+  }
+}

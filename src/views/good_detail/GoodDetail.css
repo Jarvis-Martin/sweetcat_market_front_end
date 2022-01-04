@@ -1,0 +1,622 @@
+.good_detail {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+}
+.good_detail .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.good_detail .fake_title_bar {
+  background-color: #f5f5f5;
+}
+.good_detail .fake_select_bar {
+  background-color: #f5f5f5;
+}
+.good_detail .select_bar {
+  position: fixed;
+  z-index: 10;
+  top: 44px;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #1ba4f0;
+}
+.good_detail .select_bar .items {
+  height: 45px;
+  line-height: 54px;
+  border-bottom: 2px solid #ffffff;
+  margin-bottom: 5px;
+}
+.good_detail .select_bar .items a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+}
+.good_detail .content_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 518px;
+}
+.good_detail .content_section .content_section_wrapper {
+  background: linear-gradient(to bottom, #1ba4f0 5%, #f5f5f5 0);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 45px;
+}
+.good_detail .content_section .content_section_wrapper .good_pics {
+  width: 375px;
+  height: 375px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info {
+  width: 100vw;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .field {
+  width: 345px;
+  margin-bottom: 15px;
+  display: flex;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .price {
+  margin-top: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .price_number {
+  color: #ee0c0c;
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .sale_number_per_month {
+  color: #101010;
+  font-size: 14px;
+  text-align: right;
+  font-family: PingFangSC-bold;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .name {
+  color: #101010;
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .title_for_selection {
+  width: 28px;
+  color: rgba(16, 16, 16, 0.6);
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  margin-bottom: 1px solid #bbbbbb;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .placeholder {
+  width: 260px;
+  color: #101010;
+  font-size: 16px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .icon_more {
+  width: 12px;
+  height: 12px;
+  background-color: #ffffff;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field {
+  border-radius: 12px;
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .sub_filed {
+  width: 315px;
+  display: flex;
+  align-items: center;
+  height: 46px;
+  justify-content: space-between;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .specification,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number {
+  display: flex;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .specification .icon_more_container,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number .icon_more_container {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .specification .icon_more_container .icon_more,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number .icon_more_container .icon_more {
+  width: 12px;
+  height: 12px;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .specification .number_operation,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number .number_operation {
+  display: flex;
+  align-items: center;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .specification .number_operation .incr,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number .number_operation .incr,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .specification .number_operation .decr,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number .number_operation .decr {
+  width: 12px;
+  height: 12px;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .specification .number_operation .text,
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number .number_operation .text {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .specification_field .number {
+  border-bottom: none;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .gurantee {
+  border-radius: 12px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: space-between;
+  width: 345px;
+  height: 46px;
+  padding: 0 15px;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_info .gurantee .gurantee_text {
+  text-align-last: left;
+  width: 280px;
+}
+.good_detail .content_section .content_section_wrapper .coin_discount_section {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.good_detail .content_section .content_section_wrapper .coin_discount_section .coin_discount_section_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.good_detail .content_section .content_section_wrapper .coin_discount_section .coin_discount_section_left .coin_counteract_price {
+  padding: 0 5px;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  background-color: rgba(255, 166, 0, 0.226);
+  border-radius: 8px;
+  margin-right: 5px;
+  color: #ee0c0c;
+}
+.good_detail .content_section .content_section_wrapper .coin_discount_section .coin_discount_section_left .has_coupon {
+  padding: 0 5px;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  background-color: rgba(255, 166, 0, 0.226);
+  border-radius: 8px;
+  color: #ee0c0c;
+}
+.good_detail .content_section .content_section_wrapper .coin_discount_section .coin_discount_section_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.good_detail .content_section .content_section_wrapper .coin_discount_section .coin_discount_section_right .coin_discount_section_right_text {
+  color: #ee0c0c;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-right: 5px;
+}
+.good_detail .content_section .content_section_wrapper .coin_discount_section .coin_discount_section_right .coin_discount_section_icon_more {
+  width: 12px;
+  height: 12px;
+}
+.good_detail .content_section .content_section_wrapper .detail_section {
+  width: 100vw;
+}
+.good_detail .content_section .content_section_wrapper .detail_section .detail_pic {
+  width: 100%;
+}
+.good_detail .content_section .content_section_wrapper .commend_section {
+  width: 100vw;
+  background-color: #ffffff;
+  margin-top: 15px;
+}
+.good_detail .content_section .content_section_wrapper .topic {
+  margin-bottom: 15px;
+}
+.good_detail .content_section .content_section_wrapper .good_detail_recommend {
+  padding-bottom: 45px;
+}
+.good_detail .content_section .content_section_wrapper .divition {
+  width: 100vw;
+  height: 60px;
+}
+.good_detail .content_section .content_section_wrapper .title {
+  color: #101010;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.good_detail .content_section .content_section_wrapper .parting_line {
+  width: 345px;
+  height: 3px;
+}
+.good_detail .tool_bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  height: 55px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+.good_detail .tool_bar .btn_small {
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+.good_detail .tool_bar .btn_small .icon {
+  width: 20px;
+  height: 20px;
+}
+.good_detail .tool_bar .btn_small .text {
+  height: 12px;
+  color: #101010;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.good_detail .tool_bar .btn_big,
+.good_detail .tool_bar .add2car,
+.good_detail .tool_bar .buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: PingFangSC-bold;
+  width: 116px;
+  height: 38px;
+  line-height: 20px;
+  border-radius: 26px 26px 26px 26px;
+}
+.good_detail .tool_bar .favorite {
+  margin-right: 5px;
+}
+.good_detail .tool_bar .add2car {
+  margin-right: 5px;
+  background-color: #ee500c;
+}
+.good_detail .tool_bar .buy {
+  background-color: #eeb14e;
+}
+.good_detail .good_detail_user_mask {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.good_detail .good_detail_user_mask .good_detail_user_info_mask_main {
+  width: 100%;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  margin-top: 25px;
+  border-radius: 16px 16px 0px 0px;
+}
+.good_detail .good_detail_user_mask .good_detail_user_info_mask_main .good_detail_coupons {
+  width: 345px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.good_detail .good_detail_user_mask .good_detail_user_info_mask_main .comment_btn_container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100vw;
+  background-color: #fff;
+}
+.good_detail .good_detail_user_mask .good_detail_user_info_mask_main .publich_comment_btn {
+  width: 345px;
+  height: 40px;
+  line-height: 20px;
+  border-radius: 26px;
+  background-color: #1ba4f0;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.good_detail .confirm_container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 95px;
+  overflow-x: scroll;
+  background-color: #fff;
+}
+.good_detail .confirm_container .content_section {
+  height: 90vh;
+  width: 100vw;
+  background: linear-gradient(to bottom, #1ba4f0 16px, #f5f5f5 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.good_detail .confirm_container .content_section .content_main {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.good_detail .confirm_container .content_section .content_main .confirm_good_info_page_good_section {
+  padding: 25px 15px 15px 15px;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.good_detail .confirm_container .content_section .content_main .confirm_good_info_page_good_section .good_pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+.good_detail .confirm_container .content_section .content_main .confirm_good_info_page_good_section .good_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.good_detail .confirm_container .content_section .content_main .confirm_good_info_page_good_section .good_right .confirm_good_info_page_price {
+  color: #ee0c0c;
+  font-size: 16px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.good_detail .confirm_container .content_section .content_main .confirm_good_info_page_good_section .good_right .confirm_good_info_page_stock {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.good_detail .confirm_container .content_section .content_main .confirm_good_info_page_good_section .good_right .confirm_good_info_page_specification {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: #fff;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .confim_good_info_page_specification_header {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-family: PingFangSC-bold;
+  padding: 15px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .confim_good_info_page_specification_field {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .number {
+  width: 375px;
+  padding: 15px 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .number .title {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-family: PingFangSC-bold;
+  padding: 15px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .number .number_operation {
+  display: flex;
+  align-items: center;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .number .number_operation .incr,
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .number .number_operation .decr {
+  width: 12px;
+  height: 12px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .number .number_operation .text {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .specification_icon .confim_good_info_page_specification_header {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-family: PingFangSC-bold;
+  padding: 15px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .specification_icon .specification_btns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .specification_icon .specification_btns .confim_good_info_page_specification_field {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  margin-left: 25px;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .post_type_container {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .post_type_container .post_type_title {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 600;
+  font-family: PingFangSC-bold;
+  margin-bottom: 10px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .post_type_container .post_type_title .post_type_title_tip {
+  font-size: 10px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  margin-left: 5px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .post_type_container .post_type_body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+.good_detail .confirm_container .content_section .content_main .confim_good_info_page_specification_section .post_type_container .post_type_tip {
+  margin-top: 5px;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.good_detail .confirm_container .confirm_faker_footer {
+  height: 99px;
+}
+.good_detail .confirm_container .comment_btn_container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #fff;
+  padding-top: 5px;
+}
+.good_detail .confirm_container .comment_btn_container .coupon_tip {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.good_detail .confirm_container .comment_btn_container .confirm_btns_con {
+  margin: 10px 0 5px 0;
+  width: 345px;
+  height: 40px;
+  border-radius: 26px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.good_detail .confirm_container .comment_btn_container .publich_comment_btn {
+  flex: 1;
+  height: 100%;
+  background-color: #1ba4f0;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.good_detail .confirm_container .confirm_close_btn {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}

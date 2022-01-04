@@ -1,0 +1,76 @@
+.message_page {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.message_page .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.message_page .message_content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.message_page .message_content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 16px, #f5f5f5 0);
+  min-height: 100vh;
+}
+.message_page .message_content_section .content_section_wrapper .content_main {
+  border-radius: 16px 16px 0px 0px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+.message_page .message_content_section .content_section_wrapper .content_main .message_card_container {
+  width: 375px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+.message_page .mask_message {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(20, 0, 0, 0.4);
+}
+.message_page .mask_message .operate_option {
+  width: 345px;
+  height: 44px;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}

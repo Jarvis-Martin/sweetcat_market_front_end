@@ -1,0 +1,139 @@
+.edit_info_page {
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 1);
+
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .content_section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 16px, rgba(245, 245, 245, 100) 0);
+
+    .content_main {
+      width: 100%;
+      border-radius: 16px 16px 0px 0px;
+      background-color: rgba(245, 245, 245, 1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      .edit_info_page_main {
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+
+        .edit_info_avatar {
+          width: 100px;
+          height: 98px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50%;
+          margin: 25px 0 15px;
+          overflow: hidden;
+
+        }
+
+        .edit_info_birth {
+          width: 100%;
+
+          .birthday_picker_container {
+            width: 208px;
+            text-align-last: left;
+            margin-right: 15px;
+            color: rgba(51, 51, 51, .5);
+            text-align: left;
+            font-family: PingFangSC-regular;
+            .datepicker {
+              width: 100%!important;
+              padding: 0!important;
+            }
+          }
+        }
+
+        .edit_info_field {
+          padding: 5px 15px;
+          width: 345px;
+          height: 40px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          .edit_info_left {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            .edit_info_title {
+              width: 60px;
+              color: rgba(51, 51, 51, 1);
+              font-size: 15px;
+              text-align: left;
+              font-family: PingFangSC-bold;
+              margin-right: 20px;
+            }
+
+            .default_value {
+              width: 208px;
+              text-align-last: left;
+              margin-right: 15px;
+              color: rgba(51, 51, 51, .5);
+              text-align: left;
+              font-family: PingFangSC-regular;
+            }
+          }
+
+          .edit_info_icon_more {
+            width: 12px;
+            height: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .mask {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgba(20, 0, 0, .4);
+
+    .gender_option {
+      height: 44px;
+      width: 100%;
+      color: rgba(51, 51, 51, 1);
+      font-size: 15px;
+      text-align: left;
+      font-family: PingFangSC-bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+    }
+  }
+}

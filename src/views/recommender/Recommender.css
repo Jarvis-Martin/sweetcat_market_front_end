@@ -1,0 +1,162 @@
+.recommender_profile {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1ba4f0;
+}
+.recommender_profile .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.recommender_profile .fake_header_bar {
+  width: 100vw;
+  height: 24px;
+}
+.recommender_profile .content_section_wrapper_outer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 16px 16px 0px 0px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .user_name {
+  width: 152px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .user_desc {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  margin-bottom: 10px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .fans_number {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .fans_number .fasn_number_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .fans_number .fasn_number_left .icon_fans {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .fans_number .fasn_number_left .fans_text {
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .fans_number .fasn_number_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 22px;
+  background-color: #ffffff;
+  border: 1px solid #1ba4f0;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .fans_number .fasn_number_right .icon_follow {
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .user_car .user_info .fans_number .fasn_number_right .text {
+  color: #1ba4f0;
+  font-size: 15px;
+  font-family: PingFangSC-regular;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #1ba4f0 16px, #f5f5f5 0);
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .content_section .content_main {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .content_section .content_main .header {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .content_section .content_main .header .recommend_title {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+  margin-right: 8px;
+}
+.recommender_profile .content_section_wrapper_outer .content_section_wrapper .content_section .content_main .header .recommend_total_number {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}

@@ -1,0 +1,131 @@
+.pre_order_good_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.pre_order_good_card .good_section {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pre_order_good_card .good_section .good_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.pre_order_good_card .good_section .good_left .pre_order_good_pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+.pre_order_good_card .good_section .good_left .good_detail_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-right: 10px;
+}
+.pre_order_good_card .good_section .good_left .good_detail_info .pre_order_good_name {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.pre_order_good_card .good_section .good_left .good_detail_info .pre_order_good_specification {
+  margin-top: 5px;
+  color: rgba(51, 51, 51, 0.6);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.pre_order_good_card .good_section .good_left .good_detail_info .pre_order_total_number {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.pre_order_good_card .pre_order_good_card_field {
+  padding-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pre_order_good_card .pre_order_good_card_field .pre_order_good_card_field_title {
+  width: 60px;
+  margin-right: 5px;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.pre_order_good_card .pre_order_good_card_field .pre_order_remark {
+  width: 240px;
+}
+.pre_order_good_card .pre_order_good_card_field .pre_order_good_card_field_more {
+  width: 12px;
+  height: 12px;
+}
+.pre_order_good_card .good_total_number .number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pre_order_good_card .good_total_number .number .incr_btn,
+.pre_order_good_card .good_total_number .number .decr_btn {
+  width: 12px;
+  height: 12px;
+}
+.pre_order_good_card .good_total_number .number .decr_btn {
+  margin-right: 10px;
+}
+.pre_order_good_card .good_total_number .number .incr_btn {
+  margin-left: 10px;
+}
+.pre_order_good_card .good_total_number .number .text {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.pre_order_good_card .pre_order_item_summary {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.pre_order_good_card .pre_order_item_summary .pre_order_item_summary_number {
+  display: flex;
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-right: 5px;
+}
+.pre_order_good_card .pre_order_item_summary .pre_order_item_summary_total_numberr {
+  color: #ee0c0c;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}

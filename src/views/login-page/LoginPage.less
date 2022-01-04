@@ -1,0 +1,92 @@
+.login_page {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background-color: #fff;
+  }
+  
+  .content_section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 16px, rgba(245, 245, 245, 100) 0);
+    .content_main {
+      width: 100%;
+      padding: 15px;
+      border-radius: 16px 16px 0px 0px;
+      // background-color: rgba(245, 245, 245, 1);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      .login_app_logo {
+        // width: 110px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: rgba(254, 254, 254, 1);
+      }
+      .login_form_container {
+        margin-top: 35px;
+        width: 345px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .input_container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 44px;
+          margin-top: 15px;
+          width: 100%;
+          border-radius: 20px;
+          background-color: rgba(245, 245, 245, 1);
+
+          color: rgba(51, 51, 51, 1);
+          font-size: 18px;
+          font-family: PingFangSC-regular;
+        }
+        .other_option {
+          margin-top: 10px;
+          width: 345px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+  .comment_btn_container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100vw;
+    background-color: #fff;
+    margin-top: 15px;
+    .publich_comment_btn {
+      width: 345px;
+      height: 40px;
+      line-height: 20px;
+      border-radius: 26px;
+      background-color: rgba(27, 164, 240, 1);
+      color: rgba(255, 255, 255, 1);
+      font-size: 18px;
+      text-align: center;
+      font-family: PingFangSC-bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+.edit_item_page {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.edit_item_page .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.edit_item_page .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #1ba4f0 16px, #f5f5f5 0);
+}
+.edit_item_page .content_section .content_main {
+  padding-top: 15px;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.edit_item_page .content_section .content_main .edit_item_input {
+  width: 345px;
+  min-height: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.edit_item_page .comment_btn_container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100vw;
+  background-color: #fff;
+}
+.edit_item_page .comment_btn_container .publich_comment_btn {
+  width: 345px;
+  height: 40px;
+  line-height: 20px;
+  border-radius: 26px;
+  background-color: #1ba4f0;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

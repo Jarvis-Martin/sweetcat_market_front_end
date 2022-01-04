@@ -1,0 +1,19 @@
+.search_bar {
+  width: 345px;
+  height: 30px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.search_bar .icon_search {
+  width: 12px;
+  height: 12px;
+  margin-right: 9px;
+}
+.search_bar .placeholder {
+  font-size: 14px;
+  color: #888888;
+  font-family: Microsoft Yahei;
+}

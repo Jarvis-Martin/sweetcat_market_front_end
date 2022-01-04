@@ -1,0 +1,258 @@
+.coin_center {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(245, 245, 245, 1);
+
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .content_section {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 60%, rgba(245, 245, 245, 100) 0);
+    height: 623px;
+
+    .content_section_wrapper {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: rgba(245, 245, 245, 1);
+      border-radius: 16px 16px 0px 0px;
+
+      .content_main {
+        width: 100%;
+        border-radius: 16px 16px 0px 0px;
+        background-color: rgba(245, 245, 245, 1);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        .coin_center_header {
+          padding: 15px 15px 15px 10px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background-color: #fff;
+          width: 100%;
+          border-bottom: 1px solid rgba(187, 187, 187, .3);
+
+          .coin_center_header_left {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 5px 20px 5px 5px;
+
+            .coin_center_header_icon {
+              width: 34px;
+              height: 34px;
+              margin-right: 10px;
+            }
+
+            .coin_center_header_text {
+              color: rgba(51, 51, 51, 1);
+              font-size: 16px;
+              text-align: left;
+              font-family: PingFangSC-bold;
+              font-weight: 600;
+            }
+          }
+
+          .coin_center_header_right {
+            color: rgba(51, 51, 51, 80);
+            font-size: 13px;
+            text-align: left;
+            font-family: PingFangSC-regular;
+            display: flex;
+            height: 100%;
+            align-items: flex-end;
+            justify-content: center;
+          }
+        }
+
+        .coin_center_operation_btns {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          background-color: #fff;
+          padding: 10px 15px;
+          border-bottom: 1px solid rgba(187, 187, 187, .3);
+
+          .coin_center_operation_btn {
+
+            background-color: rgba(245, 245, 245, 1);
+            border-radius: 60px;
+            border: 1px solid rgba(187, 187, 187, .3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2px 5px;
+            margin-right: 10px;
+            // background-color: rgba(27, 164, 240, .5);
+
+            .coin_center_operation_btn_icon {
+              width: 24px;
+              height: 24px;
+              margin-right: 5px;
+            }
+
+            .coin_center_operation_btn_text {
+              color: rgba(51, 51, 51, 1);
+              font-size: 15px;
+              text-align: left;
+              font-family: PingFangSC-bold;
+            }
+          }
+        }
+
+        .coin_goods {
+          width: 100%;
+          margin-bottom: 15px;
+
+          .topic_header {
+            height: 10px !important;
+          }
+        }
+      }
+    }
+  }
+
+  .coin_center_sigin_mask {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(20, 0, 0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .coin_center_sigin_mask_main {
+      width: 345px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+
+      .coin_center_sigin_calender_panel {
+        width: 100%;
+        height: 100%;
+
+        .signin_title_container {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .signin_title {
+            font-size: 24px;
+            width: 297px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          .signin_title_cancel_icon_container {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .signin_title_cancel_icon {
+              width: 24px;
+              height: 24px;
+
+            }
+          }
+        }
+      }
+
+      .coin_center_sigin_comment_btn_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+        width: 345px;
+        margin-bottom: 15px;
+
+        .coin_center_sigin_publich_comment_tip {
+          color: rgba(51, 51, 51, .5);
+          font-size: 13px;
+          text-align: left;
+          font-family: PingFangSC-regular;
+          margin-bottom: 5px;
+        }
+
+        .coin_center_sigin_publich_comment_btn {
+          width: 315px;
+          height: 40px;
+          line-height: 20px;
+          border-radius: 26px;
+          background-color: #1ba4f0;
+          color: #ffffff;
+          font-size: 18px;
+          text-align: center;
+          font-family: PingFangSC-bold;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+.calender_item_container {
+  width: 100%;
+
+  .calender_item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .calender_item_pic {
+      width: 20px;
+    }
+
+    .calender_item_text {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(51, 51, 51, .5);
+      font-size: 2px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+    }
+  }
+
+  .checked {
+    width: 20px;
+    height: 44px;
+    background-color: rgba(27, 164, 240, .5);
+  }
+}

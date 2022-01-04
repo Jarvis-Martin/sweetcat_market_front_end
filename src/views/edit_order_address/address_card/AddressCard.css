@@ -1,0 +1,36 @@
+.edit_order_address_card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 0;
+}
+.edit_order_address_card .edit_order_address_card_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 15px 10px 15px;
+}
+.edit_order_address_card .edit_order_address_card_top .edit_order_address_card_receiver_name {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-right: 5px;
+  font-weight: 600;
+}
+.edit_order_address_card .edit_order_address_card_top .edit_order_address_card_receiver_phone {
+  color: rgba(51, 51, 51, 0.6);
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.edit_order_address_card .edit_order_address_card_bottom {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  padding: 0 15px;
+}

@@ -1,0 +1,87 @@
+.remender_section {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+
+  .avatar_con {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .liked_person_avatar {
+      width: 100%;
+    }
+  }
+
+  .user_info {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 0;
+
+    .user_name {
+      color: rgba(51, 51, 51, 1);
+      font-size: 15px;
+      font-family: PingFangSC-bold;
+      margin-bottom: 2px;
+    }
+
+    .description {
+      color: rgba(240, 173, 22, 1);
+      font-size: 12px;
+      font-family: PingFangSC-regular;
+      margin-bottom: 2px;
+    }
+
+    .fans_num {
+      color: rgba(51, 51, 51, .5);
+      font-size: 12px;
+      text-align: left;
+      font-family: PingFangSC-regular;
+    }
+  }
+
+  .not_followed {
+    border: 1px solid rgba(27, 164, 240, 1);
+
+    .text {
+      color: rgba(27, 164, 240, 1);
+    }
+  }
+
+  .has_followed {
+    border: 1px solid #707070;
+
+    .text {
+      color: #000000;
+    }
+  }
+
+  .follow_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border-radius: 22px;
+    background-color: rgba(255, 255, 255, 1);
+
+    .icon_follow {
+      width: 12px;
+      height: 12px;
+      margin-right: 5px;
+    }
+
+    .text {
+      font-size: 15px;
+      font-family: PingFangSC-regular;
+    }
+  }
+}

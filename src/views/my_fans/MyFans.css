@@ -1,0 +1,70 @@
+.my_fans {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.my_fans .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.my_fans .select_bar {
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: #1ba4f0;
+}
+.my_fans .select_bar .items {
+  height: 41px;
+  line-height: 54px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  margin-bottom: 5px;
+}
+.my_fans .select_bar .border_bottom {
+  border-bottom: 2px solid #ffffff;
+}
+.my_fans .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.my_fans .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 16px 16px 0px 0px;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+}
+.my_fans .content_section .content_section_wrapper .content_main {
+  min-height: 623px;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+  background-color: #fefefe;
+}
+.my_fans .content_section .content_section_wrapper .content_main .person_item {
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}

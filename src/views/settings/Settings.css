@@ -1,0 +1,137 @@
+.settings_page {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.settings_page .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.settings_page .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.settings_page .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+  border-radius: 16px 16px 0px 0px;
+}
+.settings_page .content_section .content_section_wrapper .content_main {
+  width: 100%;
+  min-height: 100vh;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px 15px 0 15px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section .user_info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section .user_info .user_info_left_section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 15px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section .user_info .user_info_left_section .settings_avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section .user_info .user_info_left_section .user_info_right_section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section .user_info .user_info_left_section .user_info_right_section .settings_username {
+  color: #101010;
+  font-size: 18px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section .user_info .user_info_left_section .user_info_right_section .settings_useraccount {
+  margin-top: 8px;
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.settings_page .content_section .content_section_wrapper .content_main .user_info_section .user_info .more_icon {
+  width: 12px;
+  height: 12px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .settings_field {
+  padding: 15px 0;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  height: 44px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .settings_field .settings_field_title {
+  color: #101010;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+}
+.settings_page .content_section .content_section_wrapper .content_main .settings_field .more_icon {
+  width: 12px;
+  height: 12px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .margin_top {
+  margin-top: 15px;
+}
+.settings_page .content_section .content_section_wrapper .content_main .settings_btn {
+  margin-top: 15px;
+  width: 345px;
+  height: 40px;
+  line-height: 20px;
+  border-radius: 26px;
+  background-color: #1ba4f0;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,125 @@
+.my_footprint {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+.my_footprint .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.my_footprint .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+  height: 623px;
+}
+.my_footprint .content_section .content_section_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 16px 16px 0px 0px;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+}
+.my_footprint .content_section .content_section_wrapper .footprint_date_picker {
+  width: 100vw;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+.my_footprint .content_section .content_section_wrapper .footprint_date_picker .ant-row {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.my_footprint .content_section .content_section_wrapper .content_main {
+  min-height: 623px;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #fefefe;
+}
+.my_footprint .content_section .content_section_wrapper .content_main .footprint_goods_panel {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.my_footprint .content_section .content_section_wrapper .content_main .footprint_goods_panel .footprint_goods_panel_title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  color: #333333;
+  font-size: 17px;
+  font-family: Microsoft Yahei;
+}
+.my_footprint .content_section .content_section_wrapper .content_main .footprint_goods_panel .footprint_goods_gooditem_group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.my_footprint .content_section .content_section_wrapper .content_main .footprint_switch_container {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.my_footprint .content_section .content_section_wrapper .content_main .footprint_switch_container .footprint_current_date {
+  color: #333333;
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.my_footprint .content_section .content_section_wrapper .content_main .footprint_switch_container .footprint_switch_container_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.my_footprint .content_section .content_section_wrapper .content_main .footprint_switch_container .footprint_switch_container_right .footprint_switch_text {
+  margin-right: 10px;
+  color: #1ba4f0;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.my_footprint .mask_message {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(20, 0, 0, 0.4);
+}
+.my_footprint .mask_message .operate_option {
+  width: 345px;
+  height: 44px;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}

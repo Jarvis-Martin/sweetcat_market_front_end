@@ -1,0 +1,188 @@
+.App {
+  text-align: center;
+}
+
+/* 加载中的旋转动画 */
+@keyframes rotating {
+  0% {
+    /*rotate(2D旋转) scale(放大或者缩小) translate(移动) skew(翻转)*/
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading_circle {
+  animation: rotating 0.8s linear infinite;
+  -webkit-animation: rotating 0.8s linear infinite;
+}
+
+/* antd 样式 */
+.ant-picker-date-panel {
+  width: 345px !important;
+}
+
+.ant-picker-date-panel .ant-picker-content {
+  width: 100% !important;
+}
+
+.color_red {
+  color: rgba(238, 12, 12, 1);
+}
+
+.color_blue {
+  color: rgba(27, 164, 240, 1);
+}
+
+.color_mute {
+  color: rgba(51, 51, 51, .5);
+}
+
+.bgc_gray {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.tabbar_container {
+  width: 375px;
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fake_title_bar {
+  height: 44px;
+  width: 100vw;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.fake_select_bar {
+  width: 100vw;
+  height: 50px;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.fake_footer {
+  width: 100vw;
+  height: 60px;
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.user_mask {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(20, 0, 0, 0.4);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.user_mask .user_info_mask_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #fff;
+  margin-top: 25px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.user_mask .user_info_mask_main .user_mask_avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.user_mask .user_info_mask_main .user_mask_username {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-top: 10px;
+}
+
+.user_mask .user_info_mask_main .user_mask_desc {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  margin-top: 10px;
+}
+
+.user_mask .user_info_mask_main .comment_btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 100vw;
+  background-color: #fff;
+}
+
+.user_mask .user_info_mask_main .comment_btn_container .publich_comment_btn {
+  width: 345px;
+  height: 40px;
+  line-height: 20px;
+  border-radius: 26px;
+  background-color: #1ba4f0;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color_main_blue {
+  color: rgba(27, 164, 240, 1) !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

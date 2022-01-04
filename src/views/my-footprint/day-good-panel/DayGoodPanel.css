@@ -1,0 +1,29 @@
+.day_good_panel {
+  padding: 0 15px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.day_good_panel .footprint_good_pic_item {
+  width: 105px;
+  flex: 1;
+}
+.day_good_panel .footprint_good_pic_item .footprint_good_pic {
+  width: 105px;
+  height: 105px;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+.day_good_panel .footprint_good_pic_item .footprint_price_container {
+  color: #ee0c0c;
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.day_good_panel .footprint_good_pic_item .footprint_price_container .footprint_price {
+  color: #ee0c0c;
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}

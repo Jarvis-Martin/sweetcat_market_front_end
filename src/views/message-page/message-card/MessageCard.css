@@ -1,0 +1,116 @@
+.message_card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+.message_card .message_card_top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(187, 187, 187, 0.3);
+}
+.message_card .message_card_top .message_card_top_left {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.message_card .message_card_top .message_card_top_left .message_card_top_avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.message_card .message_card_top .message_card_top_left .message_card_top_name {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.message_card .message_card_top .message_card_top_right {
+  width: 15px;
+  height: 15px;
+}
+.message_card .message_card_bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+.message_card .message_card_bottom .message_card_bottom_information {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.message_card .message_card_bottom .message_card_bottom_information .message_card_bottom_content {
+  margin-right: 15px;
+  font-weight: 600;
+  color: #333333;
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.message_card .message_card_bottom .message_card_bottom_information .message_card_bottom_time {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 13px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.message_card .message_card_bottom .message_card_bottom_goodInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(245, 245, 245, 0.5);
+  padding-right: 15px;
+  border-radius: 8px;
+}
+.message_card .message_card_bottom .message_card_bottom_goodInfo .message_card_bottom_goodInfo_pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+.message_card .message_card_bottom .message_card_bottom_goodInfo .message_card_bottom_goodInfo_right {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.message_card .message_card_bottom .message_card_bottom_goodInfo .message_card_bottom_goodInfo_right .message_card_bottom_goodInfo_name {
+  width: 100%;
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.message_card .message_card_bottom .message_card_bottom_goodInfo .message_card_bottom_goodInfo_right .message_card_bottom_goodInfo_lookmore {
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}

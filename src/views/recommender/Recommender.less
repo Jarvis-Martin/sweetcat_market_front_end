@@ -1,0 +1,185 @@
+.recommender_profile {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(27, 164, 240, 1);
+
+  .title_bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .fake_header_bar {
+    width: 100vw;
+    height: 24px;
+  }
+
+  .content_section_wrapper_outer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 60%, rgba(245, 245, 245, 100) 0);
+    height: 623px;
+
+    .content_section_wrapper {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      border-radius: 16px 16px 0px 0px;
+
+      .user_car {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 100px;
+
+        .avatar {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+
+        .user_info {
+          width: 270px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: center;
+
+          .user_name {
+            width: 152px;
+            color: rgba(255, 255, 255, 1);
+            font-size: 18px;
+            text-align: left;
+            font-family: PingFangSC-bold;
+            margin-bottom: 10px;
+
+            overflow: hidden;
+            text-overflow: -o-ellipsis-lastline;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            line-clamp: 1;
+            -webkit-box-orient: vertical;
+          }
+
+          .user_desc {
+            color: rgba(255, 255, 255, 1);
+            font-size: 12px;
+            text-align: left;
+            font-family: PingFangSC-regular;
+            margin-bottom: 10px;
+          }
+
+          .fans_number {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 10px;
+
+            .fasn_number_left {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .icon_fans {
+                width: 18px;
+                height: 18px;
+                margin-right: 8px;
+              }
+
+              .fans_text {
+                color: rgba(255, 255, 255, 1);
+                font-size: 14px;
+                text-align: left;
+                font-family: PingFangSC-bold;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+
+            .fasn_number_right {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 80px;
+              height: 30px;
+              border-radius: 22px;
+              background-color: rgba(255, 255, 255, 100);
+              border: 1px solid rgba(27, 164, 240, 100);
+
+              .icon_follow {
+                width: 12px;
+                height: 12px;
+                margin-right: 5px;
+              }
+
+              .text {
+                color: rgba(27, 164, 240, 100);
+                font-size: 15px;
+                font-family: PingFangSC-regular;
+              }
+            }
+          }
+        }
+      }
+
+      .content_section {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // background-color: rgba(27, 164, 240, 1);
+        background: linear-gradient(to bottom, rgba(27, 164, 240, 1) 16px, rgba(245, 245, 245, 100) 0);
+
+        .content_main {
+          width: 100%;
+          border-radius: 16px 16px 0px 0px;
+          background-color: rgba(245, 245, 245, 1);
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: flex-start;
+          padding-top: 15px;
+
+          .header {
+            width: 345px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding-bottom: 15px;
+            border-bottom: 1px solid rgba(187, 187, 187, .3);
+
+            .recommend_title {
+              color: rgba(51, 51, 51, 1);
+              font-size: 15px;
+              text-align: left;
+              font-family: PingFangSC-bold;
+              font-weight: 600;
+              margin-right: 8px;
+            }
+
+            .recommend_total_number {
+              color: rgba(51, 51, 51, .8);
+              font-size: 12px;
+              text-align: left;
+              font-family: PingFangSC-regular;
+            }
+          }
+        }
+      }
+    }
+  }
+}

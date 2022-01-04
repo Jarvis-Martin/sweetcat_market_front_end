@@ -1,0 +1,163 @@
+.profile {
+  width: 100vw;
+  height: 607px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #1ba4f0 60%, #f5f5f5 0);
+}
+.profile .home_scroll_wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile .home_scroll_wrapper .fake_header_bar {
+  width: 100vw;
+  height: 24px;
+}
+.profile .home_scroll_wrapper .user_car {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+.profile .home_scroll_wrapper .user_car .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.profile .home_scroll_wrapper .user_car .user_info {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.profile .home_scroll_wrapper .user_car .user_info .user_name {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  margin-bottom: 10px;
+}
+.profile .home_scroll_wrapper .user_car .user_info .user_level {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.profile .home_scroll_wrapper .user_car .icon_notification {
+  width: 24px;
+  height: 24px;
+}
+.profile .home_scroll_wrapper .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, #1ba4f0 16px, #f5f5f5 0);
+}
+.profile .home_scroll_wrapper .content_section .content_main {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 15px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .topic {
+  margin-bottom: 15px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .divition {
+  width: 100vw;
+  height: 20px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .parting_line {
+  width: 345px;
+  height: 3px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .title {
+  color: #101010;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .other_service .other_service_topic {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+}
+.profile .home_scroll_wrapper .content_section .content_main .other_service .other_service_topic .topic_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 345px;
+  height: 45px;
+  margin-bottom: 5px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .other_service .other_service_topic .topic_header .title {
+  font-size: 15px;
+  color: #333333;
+  font-family: PingFangSC-bold;
+  margin-left: 15px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .other_service .other_service_topic .topic_content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+.profile .home_scroll_wrapper .content_section .content_main .other_service .other_service_topic .topic_content .container {
+  padding-top: 5px;
+  padding-bottom: 15px;
+  flex: 0 0 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.profile .home_scroll_wrapper .content_section .content_main .other_service .other_service_topic .topic_content .container .icon_pic {
+  margin-bottom: 10px;
+  width: 26px;
+  height: 26px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .other_service .other_service_topic .topic_content .container .other_service_title {
+  color: #101010;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+}
+.profile .home_scroll_wrapper .content_section .content_main .individual_service {
+  width: 345px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .individual_service .individual_item {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 165px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .individual_service .individual_item .individual_item_icon {
+  width: 40px;
+  height: 40px;
+}
+.profile .home_scroll_wrapper .content_section .content_main .individual_service .individual_item .individual_item_text {
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  font-weight: 600;
+}

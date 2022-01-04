@@ -1,0 +1,76 @@
+.second_kill_good_item {
+  width: 165px;
+  border-radius: 12px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.second_kill_good_item .good_pic {
+  width: 145px;
+  height: 145px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.second_kill_good_item .good_pic .pic {
+  width: 100%;
+}
+.second_kill_good_item .good_name {
+  width: 145px;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+  overflow: hidden;
+  text-overflow: -o-ellipsis-lastline;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.second_kill_good_item .good_price {
+  width: 145px;
+  color: #ee0c0c;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.second_kill_good_item .add_car_number {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 145px;
+}
+.second_kill_good_item .add_car_number .specification {
+  color: #333333;
+  font-size: 10px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}
+.second_kill_good_item .add_car_number .buy {
+  padding: 3px 15px;
+  border-radius: 16px;
+  margin-left: 6px;
+  background-color: #ee500c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.second_kill_good_item .good_pic,
+.second_kill_good_item .good_name,
+.second_kill_good_item .good_price,
+.second_kill_good_item .add_car_number {
+  margin-bottom: 8px;
+}
+.second_kill_good_item .process_bar {
+  width: 135px;
+  margin-bottom: 5px;
+}

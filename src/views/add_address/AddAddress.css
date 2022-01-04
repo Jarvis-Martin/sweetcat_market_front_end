@@ -1,0 +1,178 @@
+.add_address {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.add_address .title_bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+.add_address .content_section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom, #1ba4f0 16px, #f5f5f5 0);
+  height: 623px;
+}
+.add_address .content_section .content_main {
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+  background-color: #f5f5f5;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 15px;
+}
+.add_address .content_section .content_main .address_field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #fff;
+  width: 100%;
+}
+.add_address .content_section .content_main .address_field .title {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  width: 60px;
+}
+.add_address .content_section .content_main .address_field .address_item {
+  width: 285px;
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.add_address .content_section .content_main .set_defalute_address {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: #fff;
+  width: 100%;
+}
+.add_address .content_section .content_main .set_defalute_address .title {
+  color: rgba(51, 51, 51, 0.8);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+  width: 90px;
+}
+.add_address .content_section .content_main .save_address_btn {
+  margin-top: 35px;
+  width: 345px;
+  height: 40px;
+  line-height: 20px;
+  border-radius: 26px;
+  background-color: #1ba4f0;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add_address .address_mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgba(20, 0, 0, 0.4);
+}
+.add_address .address_mask .address_mask_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #fff;
+  border-radius: 16px 16px 0px 0px;
+  padding: 10px 15px 0 15px;
+}
+.add_address .address_mask .address_mask_container .address_option {
+  height: 40px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.add_address .address_mask .address_mask_container .address_option .address_icon_more {
+  width: 12px;
+  height: 12px;
+}
+.add_address .address_mask .address_mask_container .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  font-family: PingFangSC-bold;
+}
+.add_address .address_mask .address_mask_container .selection_section {
+  padding: 15px 0;
+  width: 345px;
+  height: 340px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+  border-top: 1px solid rgba(187, 187, 187, 0.3);
+}
+.add_address .address_mask .address_mask_container .selection_section .selection_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  overflow-y: scroll;
+}
+.add_address .address_mask .address_mask_container .selection_section .selection_container .title {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #333333;
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-bold;
+}
+.add_address .address_mask .address_mask_container .selection_section .selection_container .address_select_item {
+  padding: 10px 0;
+  width: 100%;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  color: rgba(51, 51, 51, 0.5);
+  font-size: 15px;
+  text-align: left;
+  font-family: PingFangSC-regular;
+}

@@ -1,0 +1,87 @@
+.address_card {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  background-color: #fff;
+  border-radius: 16px;
+  .address_card_top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(187, 187, 187, .3);
+    padding-bottom: 15px;
+    .address_card_top_left {
+      margin-right: 15px;
+      display: flex;
+      flex-direction: column;
+      .name_phone_section {
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 15px 0;
+        .receiver_name {
+          color: rgba(51, 51, 51, 1);
+          font-size: 15px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+          margin-right: 10px;
+        }
+        .phone_number {
+          color: rgba(51, 51, 51, .8);
+          font-size: 12px;
+          text-align: left;
+          font-family: PingFangSC-bold;
+        }
+      }
+      .address {
+        color: rgba(51, 51, 51, 1);
+        font-size: 14px;
+        text-align: left;
+        font-family: PingFangSC-bold;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        .default_address_tag {
+          border-radius: 4px;
+          background-color: rgba(27, 164, 240, .1);
+          text-align: center;
+          color: rgba(27, 164, 240, 1);
+          margin-right: 5px;
+          padding: 3px 10px;
+        }
+        .full_address_text {
+          width: 222px;
+          overflow: hidden;
+          text-overflow: -o-ellipsis-lastline;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          line-clamp: 1;
+          -webkit-box-orient: vertical;
+        }
+      }
+    }
+    .modification_btn {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .address_card_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 345px;
+    padding: 15px;
+    .address_card_bottom_right {
+      color: rgba(238, 12, 12, 100);
+      font-size: 15px;
+      text-align: left;
+      font-family: PingFangSC-bold;
+    }
+  }
+}
