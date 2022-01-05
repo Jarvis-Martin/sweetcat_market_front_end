@@ -1,5 +1,5 @@
 # sweetcat_market 前端代码
-本项目为 sweetcat_market (蓝胖子甜品屋)的前端代码部分，后台代码部分请移步[这里](https://github.com/Jarvis-Martin/sweetcat_market_front_end)。
+本项目为 sweetcat_market (蓝胖子甜品屋)的前端代码部分，后台代码部分请移步[这里](https://github.com/Jarvis-Martin/sweetcat_market)。
 
 > 温馨小提示：
 > 由于开发者本人也处于学习阶段，该项目中可能包含设计、代码实现等不合理现象。还请正在观看本项目的您，一定要持有怀疑、批评的眼光看待本项目哈，以免给您的学习引入不合理甚至错误的观点。
